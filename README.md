@@ -1,5 +1,5 @@
 # Track
-10m tracking code and GUI (circa 2004)
+10m tracking code and GUI by Kevin Harris of SAO (circa 2004)
 
 ## Original README
 
