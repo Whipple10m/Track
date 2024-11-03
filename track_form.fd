@@ -1,0 +1,1697 @@
+Magic: 13000
+
+Internal Form Definition File
+    (do not change)
+
+Number of forms: 8
+Unit of measure: FL_COORD_PIXEL
+SnapGrid: 1
+
+=============== FORM ===============
+Name: track_form
+Width: 202
+Height: 980
+Number of Objects: 32
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 202 980
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 10 87 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: SID
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 60 87 120 30
+boxtype: FL_ROUNDED3D_DOWNBOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 00:00:00
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: sid_time
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 10 50 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: U.T.
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 4 237 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: RA
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 4 318 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: AZ
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 4 277 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: DEC
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 4 358 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: EL
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 54 358 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 32.05
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: elobj
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 34 403 130 20
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_DARKVIOLET
+label: TELESCOPE
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 3 440 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_DARKVIOLET
+label: AZ
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 4 483 50 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_DARKVIOLET
+label: EL
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 54 237 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 00:00:00
+shortcut: r
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: raobj
+callback: change_ra
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 54 277 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 00:00:00
+shortcut: d
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: decobj
+callback: change_dec
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 21 156 160 30
+boxtype: FL_ROUNDED3D_DOWNBOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: POLARIS
+shortcut: g
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: objid
+callback: get_object
+argument: 0
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 72 536 80 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: ERROR
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 54 566 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_RED
+label: 0.00
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: diff
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 71 609 80 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: OFFSET
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_LIGHTBUTTON
+type: PUSH_BUTTON
+box: 29 822 140 30
+boxtype: FL_UP_BOX
+colors: FL_RED FL_GREEN
+alignment: FL_ALIGN_CENTER
+style: FL_BOLD_STYLE+FL_ENGRAVED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_YELLOW
+label: STANDBY
+shortcut: t
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: mode
+callback: change_mode
+argument: 0
+
+--------------------
+class: FL_MENU
+type: PUSH_MENU
+box: 29 942 140 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_TOP_BCOL
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_ENGRAVED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: COMMANDS
+shortcut: c
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: commands
+callback: commands
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 54 639 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 30.00
+shortcut: o
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: offset
+callback: change_offset
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 29 902 140 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_TOP_BCOL
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: ON-OFF
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: first_source
+callback: change_first_source
+argument: 0
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 54 318 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 359.89
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: azobj
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 53 440 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_TOP_BCOL
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_DARKVIOLET
+label: 000.00
+shortcut: d
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: aztel
+callback: change_drift_mode
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 54 483 120 30
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_TOP_BCOL
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_DARKVIOLET
+label: 00.00
+shortcut: d
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: eltel
+callback: change_drift_mode
+argument: 0
+
+--------------------
+class: FL_ROUNDBUTTON
+type: PUSH_BUTTON
+box: 39 727 40 40
+boxtype: FL_NO_BOX
+colors: FL_MCOL FL_MAGENTA
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_ENGRAVED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLUE
+label: OFF Source
+shortcut: s
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: offsource
+callback: change_slew
+argument: 0
+
+--------------------
+class: FL_ROUNDBUTTON
+type: PUSH_BUTTON
+box: 39 687 40 40
+boxtype: FL_NO_BOX
+colors: FL_MCOL FL_MAGENTA
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_ENGRAVED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLUE
+label: ON Source
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: onsource
+callback: change_slew
+argument: 1
+
+--------------------
+class: FL_ROUNDBUTTON
+type: PUSH_BUTTON
+box: 39 767 40 40
+boxtype: FL_NO_BOX
+colors: FL_MCOL FL_YELLOW
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_ENGRAVED_STYLE
+size: FL_NORMAL_SIZE
+lcol: FL_BLUE
+label: POINT CHECK
+shortcut: p
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: pointcheck
+callback: point_check
+argument: 0
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 29 862 140 30
+boxtype: FL_ROUNDED3D_DOWNBOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_ENGRAVED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_GREEN
+label: STOPPED
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: slew
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 59 197 80 30
+boxtype: FL_ROUNDED3D_DOWNBOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: STAR
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: code
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 59 50 120 30
+boxtype: FL_ROUNDED3D_DOWNBOX
+colors: FL_TOP_BCOL FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 00:00:00
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: ut_time
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 31 7 142 31
+boxtype: FL_ROUNDED3D_UPBOX
+colors: FL_TOP_BCOL FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 2000-01-01
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: ut_date
+callback: 
+argument: 
+
+=============== FORM ===============
+Name: browser_form
+Width: 580
+Height: 310
+Number of Objects: 2
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 580 310
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_BROWSER
+type: SELECT_BROWSER
+box: 20 20 540 280
+boxtype: FL_DOWN_BOX
+colors: FL_COL1 FL_YELLOW
+alignment: FL_ALIGN_BOTTOM
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: get_object
+callback: choose_object
+argument: 0
+
+=============== FORM ===============
+Name: correct_form
+Width: 620
+Height: 303
+Number of Objects: 12
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 620 303
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 326 203 143 28
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_RED
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: WRITE TO FILE
+shortcut: w
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: write_offset_button
+callback: write_offset
+argument: 0
+
+--------------------
+class: FL_ROUNDBUTTON
+type: NORMAL_BUTTON
+box: 525 245 40 40
+boxtype: FL_NO_BOX
+colors: FL_WHEAT FL_RED
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLUE
+label: EXIT
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: correction_exit_button
+callback: correction_exit
+argument: 0
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 18 248 154 42
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: # OF POINT CHECKS:
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 172 253 78 40
+boxtype: FL_OVAL3D_DOWNBOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_YELLOW
+label: 0
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: correction_number
+callback: 
+argument: 
+
+--------------------
+class: FL_COUNTER
+type: NORMAL_COUNTER
+box: 19 15 270 40
+boxtype: FL_UP_BOX
+colors: FL_TOP_BCOL FL_BLUE
+alignment: FL_ALIGN_BOTTOM
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: AZIMUTH
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: az_slider
+callback: az_adjust
+argument: 0
+
+--------------------
+class: FL_COUNTER
+type: NORMAL_COUNTER
+box: 329 16 270 40
+boxtype: FL_UP_BOX
+colors: FL_TOP_BCOL FL_BLUE
+alignment: FL_ALIGN_BOTTOM
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: ELEVATION
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: el_slider
+callback: el_adjust
+argument: 0
+
+--------------------
+class: FL_COUNTER
+type: NORMAL_COUNTER
+box: 17 176 270 40
+boxtype: FL_UP_BOX
+colors: FL_TOP_BCOL FL_BLUE
+alignment: FL_ALIGN_BOTTOM
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: Z (EL in tube plane)
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: Z_slider
+callback: Z_adjust
+argument: 0
+
+--------------------
+class: FL_COUNTER
+type: NORMAL_COUNTER
+box: 20 95 270 40
+boxtype: FL_UP_BOX
+colors: FL_TOP_BCOL FL_BLUE
+alignment: FL_ALIGN_BOTTOM
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: X (AZ in tube plane)
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: X_slider
+callback: X_adjust
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 330 112 143 28
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_RED
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: CHANGE TUBE
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: new_tube
+argument: 0
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 489 150 75 44
+boxtype: FL_OVAL3D_DOWNBOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_RED
+label: 1
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: pmt_tube
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 331 156 155 31
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: TRACKING IN TUBE:
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+=============== FORM ===============
+Name: moon_form
+Width: 450
+Height: 430
+Number of Objects: 11
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 450 430
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_ROUNDBUTTON
+type: HIDDEN_BUTTON
+box: 170 0 200 160
+boxtype: FL_NO_BOX
+colors: FL_RED FL_WHITE
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: PUSH_BUTTON
+box: 170 150 110 110
+boxtype: FL_OVAL_BOX
+colors: FL_WHITE FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_BLACK
+label: +
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: center_moon
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: PUSH_BUTTON
+box: 170 25 110 110
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: TOP
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: top_moon
+callback: move_moon
+argument: TOP
+
+--------------------
+class: FL_BUTTON
+type: PUSH_BUTTON
+box: 170 275 110 110
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: BOTTOM
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: bottom_moon
+callback: move_moon
+argument: BOTTOM
+
+--------------------
+class: FL_BUTTON
+type: PUSH_BUTTON
+box: 300 150 110 110
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: PROTON
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: right_moon
+callback: move_moon
+argument: PROTON
+
+--------------------
+class: FL_BUTTON
+type: RADIO_BUTTON
+box: 40 150 110 110
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: ANTI-PROTON
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: left_moon
+callback: move_moon
+argument: ANTI_PROTON
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 360 390 80 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_YELLOW
+label: EXIT
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: exit_moon
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 10 390 150 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: MOON CENTER
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: move_moon
+argument: CENTER
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 213 190 30 30
+boxtype: FL_NO_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_BLACK
+label: +
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: PUSH_BUTTON
+box: 10 10 150 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_RED
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_MEDIUM_SIZE
+lcol: FL_BLACK
+label: ON-MOON
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: moon_offset
+callback: move_moon
+argument: OFFSET
+
+=============== FORM ===============
+Name: burst_form
+Width: 460
+Height: 430
+Number of Objects: 7
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 460 430
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 160 140 120 120
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_BLACK
+label: Burst
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: burst_center
+callback: burst_move
+argument: CENTER
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 160 10 120 120
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_BLACK
+label: #1
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: burst_1
+callback: burst_move
+argument: TOP
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 290 140 120 120
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_BLACK
+label: #2
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: burst_2
+callback: burst_move
+argument: AHEAD
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 160 270 120 120
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_BLACK
+label: #3
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: burst_3
+callback: burst_move
+argument: BOTTOM
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 30 140 120 120
+boxtype: FL_OVAL_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_HUGE_SIZE
+lcol: FL_BLACK
+label: #4
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: burst_4
+callback: burst_move
+argument: BEHIND
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 340 380 90 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_YELLOW
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: EXIT
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: burst_exit_button
+callback: burst_exit
+argument: 0
+
+=============== FORM ===============
+Name: scan_form
+Width: 530
+Height: 440
+Number of Objects: 6
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 530 440
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TIMER
+type: VALUE_TIMER
+box: 410 20 100 30
+boxtype: FL_DOWN_BOX
+colors: FL_WHITE FL_RED
+alignment: FL_ALIGN_CENTER
+style: FL_FIXED_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: timer
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 130 20 90 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_RED
+label: STOP
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: stop_scan
+argument: 0
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 12 20 90 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_SPRINGGREEN
+label: START
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: start_scan
+argument: 0
+
+--------------------
+class: FL_XYPLOT
+type: NORMAL_XYPLOT
+box: 70 60 380 340
+boxtype: FL_UP_BOX
+colors: FL_LEFT_BCOL FL_BLACK
+alignment: FL_ALIGN_BOTTOM
+style: FL_FIXEDBOLDITALIC_STYLE
+size: FL_NORMAL_SIZE
+lcol: FL_BLUE
+label: Scan status
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: xyplot
+callback: 
+argument: 
+
+--------------------
+class: FL_BUTTON
+type: NORMAL_BUTTON
+box: 250 20 90 30
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_YELLOW
+label: EXIT
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: exit_scan
+argument: 0
+
+=============== FORM ===============
+Name: message_form
+Width: 580
+Height: 690
+Number of Objects: 17
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 580 690
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 20 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l1
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 60 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l2
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 100 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l3
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 140 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l4
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 180 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l5
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 220 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l6
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 260 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l7
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 300 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l8
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 340 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l9
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 380 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l10
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 420 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l11
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 460 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l12
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 500 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l13
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 540 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l14
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 580 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l15
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 20 620 530 30
+boxtype: FL_FLAT_BOX
+colors: FL_TOP_BCOL FL_MCOL
+alignment: FL_ALIGN_LEFT|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_BLUE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: l16
+callback: 
+argument: 
+
+=============== FORM ===============
+Name: notice_form
+Width: 520
+Height: 110
+Number of Objects: 4
+
+--------------------
+class: FL_BOX
+type: UP_BOX
+box: 0 0 520 110
+boxtype: FL_UP_BOX
+colors: FL_COL1 FL_COL1
+alignment: FL_ALIGN_CENTER
+style: FL_NORMAL_STYLE
+size: FL_DEFAULT_SIZE
+lcol: FL_BLACK
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: 
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 10 10 500 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_WHITE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: message_1
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 10 40 500 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_WHITE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: message_2
+callback: 
+argument: 
+
+--------------------
+class: FL_TEXT
+type: NORMAL_TEXT
+box: 10 70 500 30
+boxtype: FL_FLAT_BOX
+colors: FL_COL1 FL_MCOL
+alignment: FL_ALIGN_CENTER|FL_ALIGN_INSIDE
+style: FL_NORMAL_STYLE+FL_EMBOSSED_STYLE
+size: FL_LARGE_SIZE
+lcol: FL_WHITE
+label: 
+shortcut: 
+resize: FL_RESIZE_ALL
+gravity: FL_NoGravity FL_NoGravity
+name: message_3
+callback: 
+argument: 
+
+==============================
+create_the_forms

@@ -1,0 +1,5 @@
+xmessage -geometry 500x400 -center -default confirm -print -buttons "save not track":save,track:track,ignore:ignore -file /home/track10/tracking_sources/burst/new_burst >/home/tracking_sources/burst/temp
+cp /home/tracking_sources/burst/temp /home/tracking_sources/burst/todo
+rm /home/tracking_sources/burst/temp
+
+
