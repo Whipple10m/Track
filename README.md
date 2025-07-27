@@ -3,8 +3,7 @@
 
 ## Screenshots from the GUI
 
-![Object selection GUI](tracking_object.png)
-
+![Object selection GUI](https://github.com/Whipple10m/Track/blob/main/tracking_object.png)
 
 ## Original README
 
