@@ -1,6 +1,11 @@
 # Track
 10m tracking code and GUI by Kevin Harris of SAO (this version from circa 2004)
 
+## Screenshots from the GUI
+
+![Object selection GUI](tracking_object.png)
+
+
 ## Original README
 
 This directory has a tracking program with a new corrections routine
