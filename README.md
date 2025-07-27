@@ -3,11 +3,11 @@
 
 ## Screenshots from the GUI
 
-![Object selection GUI](https://github.com/Whipple10m/Track/blob/main/tracking.png)
+![Object selection GUI](https://github.com/Whipple10m/Track/blob/main/Assets/tracking.png)
 
-![Object selection GUI](https://github.com/Whipple10m/Track/blob/main/tracking2a.png)
+![Object selection GUI](https://github.com/Whipple10m/Track/blob/main/Assets/tracking2a.png)
 
-![Object selection GUI](https://github.com/Whipple10m/Track/blob/main/tracking_objects.png)
+![Object selection GUI](https://github.com/Whipple10m/Track/blob/main/Assets/tracking_objects.png)
 
 ## Original README
 
